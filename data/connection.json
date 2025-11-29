@@ -1,0 +1,17 @@
+{
+    "columns": [
+        "Code",
+        "Amt",
+        "MainType",
+        "SubType",
+        "Prefix"
+    ],
+    "database": "DB00253042603",
+    "db_type": "mssql",
+    "driver": "ODBC Driver 17 for SQL Server",
+    "host": "localhost\\SQLEXPRESS",
+    "password": "",
+    "port": "1433",
+    "table": "Sales",
+    "username": ""
+}

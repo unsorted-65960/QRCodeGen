@@ -1,0 +1,62 @@
+/* ===============================
+   Modern Minimal QSS (Light mode)
+   Works well with qt-material
+   =============================== */
+
+QWidget {
+    font-family: "Segoe UI", "Inter", sans-serif;
+    font-size: 10.5pt;
+    background-color: #f8f9fa;
+    color: #2e2e2e;
+}
+
+/* --- Inputs --- */
+QLineEdit {
+    border: 1px solid #d0d4da;
+    border-radius: 6px;
+    padding: 6px 8px;
+    background-color: white;
+}
+QLineEdit:focus {
+    border: 1px solid #0078d4;
+    background-color: #ffffff;
+}
+
+/* --- Buttons --- */
+QPushButton {
+    background-color: #0078d4;
+    color: white;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-weight: 500;
+    border: none;
+}
+QPushButton:hover {
+    background-color: #1084e0;
+}
+QPushButton:pressed {
+    background-color: #006bb3;
+}
+
+/* --- Labels --- */
+QLabel {
+    font-weight: 500;
+    color: #343a40;
+}
+
+/* --- Form Layouts --- */
+QFormLayout {
+    spacing: 10px;
+}
+
+/* --- QR Preview Box --- */
+QLabel#qr_label {
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+    border-radius: 12px;
+}
+
+/* --- Message Boxes --- */
+QMessageBox {
+    background-color: #f8f9fa;
+}
